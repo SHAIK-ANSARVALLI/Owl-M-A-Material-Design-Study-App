@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Course3">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/img_4" />
+
+        <TextView
+            android:id="@+id/course4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/img4"
+            android:fontFamily="cursive"
+            android:text="@string/course4"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/topic4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/course4"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/topic4"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subheading4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topic4"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/subheading4_1"
+            android:textAlignment="gravity"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subheading4_1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/text4_1"
+            android:textSize="20sp"
+            tools:ignore="VisualLintLongText" />
+
+
+        <TextView
+            android:id="@+id/subheading4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text4_1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/subheading4_2"
+            android:textAlignment="gravity"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subheading4_2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/text4_2"
+            android:textSize="20sp"
+            tools:ignore="VisualLintLongText" />
+    </RelativeLayout>
+</ScrollView>
